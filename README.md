@@ -7,6 +7,7 @@ Consider this a reference design, you can use it in hand-wired builds, to test
 other keyboard variations, or to use in your own projects!  
 
 **⚠️ WARNING: at the moment of writing, the board hasn't been tested.**  
+**I'm also planning a major redesign using the RP2354B.**
 
 The board uses an RP2040 controller running the QMK firmware, you can find the
 necessary build files in the `qmk-firmware` folder. Once the board is made and
