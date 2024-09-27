@@ -15,7 +15,19 @@ tested and all the features are added (the extra keys are missing), it'll be
 pushed to the mainstream QMK repo.  
 The only supported layout for now is the JIS (Japanese) one on the first gen
 Vaio P, but it's merely a matter of reversing the matrix and changing the pins
-and layouts in the QMK config as necessary.
+and layouts in the QMK config as necessary.  
+
+Since the adapter's only concern is the keyboard, a header breaks out the
+following:  
++ Lid detection sensor
++ Power switch
++ Power LED
++ Charging LED
++ Standby LED
++ WiFi switch
++ WiFi LED
++ Disk activity LED
++ Scroll lock LED (due to lack of GPIOs)
 
 The keyboard connector is made by Panasonic, and the model number is
 `AXK750147G`, bear in mind that the connector can connect in both ways, check
