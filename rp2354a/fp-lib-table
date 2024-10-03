@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "AXK750147G")(type "KiCad")(uri "${KIPRJMOD}/lib/AXK750147G")(options "")(descr ""))
+  (lib (name "exentio_art")(type "KiCad")(uri "${KIPRJMOD}/lib/exentio_art")(options "")(descr ""))
+  (lib (name "rp2350a")(type "KiCad")(uri "${KIPRJMOD}/lib/rp2350a")(options "")(descr ""))
+)

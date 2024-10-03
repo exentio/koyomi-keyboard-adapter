@@ -1,18 +1,21 @@
-# Project Koyomi - keyboard adapter board
+# Project Koyomi - keyboard adapter boards
 
-Adapter board for the Vaio P keyboard, made from the reverse engineering for
+Adapter boards for the Vaio P keyboard, made from the reverse engineering for
 Project Koyomi, read [this blog post](https://blog.exentio.sexy/2024/04/25/project-koyomi-update-2.html)
 for more.  
-Consider this a reference design, you can use it in hand-wired builds, to test
-other keyboard variations, or to use in your own projects!  
+Consider these reference designs, you can use them in hand-wired builds, to
+test other keyboard variations, or for use in your own projects!  
 
-**⚠️ WARNING: at the moment of writing, the board hasn't been tested.**  
+**⚠️ WARNING: at the moment of writing, the boards haven't been tested.**  
 **I'm also planning a major redesign using the RP2354B.**
 
-The board uses an RP2040 controller running the QMK firmware, you can find the
-necessary build files in the `qmk-firmware` folder. Once the board is made and
-tested and all the features are added (the extra keys are missing), it'll be
-pushed to the mainstream QMK repo.  
+The boards come in two variants, one with the RP2040 running the QMK firmware,
+and another using the RP2354A with currently no firmware (waiting for QMK
+support).  
+For the RP2040 board, you can find the necessary build files in the
+`qmk-firmware` folder. Once the board is made and tested and all the features 
+are added (the extra keys are missing), it'll be pushed to the mainstream QMK
+repo.  
 The only supported layout for now is the JIS (Japanese) one on the first gen
 Vaio P, but it's merely a matter of reversing the matrix and changing the pins
 and layouts in the QMK config as necessary.  
